@@ -1,0 +1,223 @@
+#myInput {
+         /* Добавить значок поиска для ввода */
+    background-position: 10px 12px; /* Расположите значок поиска */
+    background-repeat: no-repeat; /* Не повторяйте изображение значка */
+    width: 50%; /* Полная ширина */
+    font-size: 16px; /* Увеличить размер шрифта */
+    padding: 12px 20px 12px 40px; /* Добавить немного отступов */
+    border: 1px solid #ddd; /* Добавить серую границу */
+    margin-bottom: 12px; /* Добавить некоторое пространство под входом */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left {
+    width: 70%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.right {
+    width: 20%;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type="text"] {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+select{
+    width:250px;
+}
+/*меню*/
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    /* Для выравнивания меню по центру
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    */
+}
+.main-menu > li {
+    display: inline-flex;
+}
+.main-menu > li + li {
+    margin-left: 20px;
+}
+.main-menu > li > a {
+    padding: 0 0 20px 0;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.main-menu > li > a:hover {
+    text-decoration: none;
+    color: #337AB7;
+}
+.main-menu > li > a:after {
+    width: 0;
+    height: 3px;
+    background-color: #337AB7;
+    content: '';
+    left: 0;
+    bottom: 10px;
+    position: absolute;
+    transition: all .3s;
+}
+.main-menu > li > a:hover::after {
+    width: 100%;
+}
+.main-menu > li.active a:after {
+    width: 100%;
+}
+.main-menu li {
+    margin: 0;
+    white-space: nowrap;
+}
+.main-menu li.menu-children {
+    position: relative;
+    margin-right: 12px;
+}
+.main-menu li.menu-children:after {
+    position: absolute;
+    content: "\2039";
+    color: #337AB7;
+    font-size: 20px;
+    font-weight: bold;
+    right: -12px;
+    top: -2px;
+    transform: rotate(-90deg);
+}
+.main-menu li li.menu-children:after {
+    position: absolute;
+    content: "\2039";
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    right: 10px;
+    top: 12px;
+    transform: rotate(180deg);
+}
+.main-menu li.menu-children:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.main-menu ul {
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    background-color: #337AB7;
+    position: absolute;
+    z-index: 20;
+    min-width: 220px;
+    top: 100%;
+    left: -30px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(5px);
+    transition: all 200ms cubic-bezier(0.43, 0.59, 0.16, 1.25);
+}
+.main-menu ul li {
+    display: block;
+    padding: 0 10px;
+    line-height: 1.1;
+}
+.main-menu ul li:last-child {
+    margin-bottom: 0;
+}
+.main-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    transition: all .3s;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    color: #337AB7;
+    background: #FFF;
+    text-decoration: none;
+}
+.main-menu ul ul {
+    top: 0;
+    left: 100%;
+}
+/*end меню*/
+.btnEdit {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btnDel {
+     display: inline-block;
+     padding: 5px 12px;
+     background-color: Red;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 14px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+ }
+.btnEdit:hover{
+    background-color: #45a049;
+}
+
+input:invalid, select:invalid {
+    border: 1px solid red;
+}
+input:invalid + #submitBtn {
+    background-color: grey;
+    color: white;
+}
+
+#submitBtn:disabled {
+    background-color: grey;
+    color: white;
+}
