@@ -40,16 +40,16 @@
       <h2>Полезные сервисы</h2>
       <!-- Service buttons would be structured like this -->
       <div class="serviceBtns">
-          <a href="https://delo.anapa.ru/DELOWEB/" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame1.png"></img><div class="btnsText"><b>Дело</b> <br>Электронный документооборот </div> </a>
-          <a href="http://misev.anapa.ru/login" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame2.png"></img><div class="btnsText"><b>МИСЭВ</b><br>Электронное взаимодейсивие</div> </a>
-          <a href="https://gis.anapa.ru/anapa/anapa-main-menu" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame3.png"></img><div class="btnsText"><b>ГИС Анапа</b><br>Цифровой двойник города</div> </a> 
-          <a href="https://pmanapa.bitrix24.ru/stream/" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame4.png"></img><div class="btnsText"><b>Битрикс</b><br>Система управления проектами</div> </a>
-          <a href="https://mail.anapa.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame5.png"></img><div class="btnsText"><b>Почта</b><br>Почтовый клиент</div> </a>
-          <a href="https://www.anapa-official.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame6.png"></img><div class="btnsText"><b>Сайт мэрии</b><br>МО г-к Анапа</div> </a>
-          <a href="https://www.garant.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame7.png"></img><div class="btnsText"><b>Гарант</b><br>Информационно-правовой портал</div> </a>
-          <a href="/pb" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame8.png"></img><div class="btnsText" download="w3logo"><b>Справочник</b><br>Просто и удобно</div> </a> 
-		  <a href="https://gossluzhba.gov.ru/anticorruption/spravki_bk" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame10.png"></img><div class="btnsText"><b>Справки БК</b><br>Актуальный файл</div> </a>
-          <a href="document/A24.pdf" target="_blank" class="service"><img alt="icon"  class="icImg" src="images/Frame9.png"></img><div class="btnsText" download="w3logo"><b>Дни рождения</b><br></div> </a> 
+          <a href="https://delo.anapa.ru/DELOWEB/" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame1.png"></img><div class="btnsText"><b>Дело</b> <br>Электронный документооборот </div> </a>
+          <a href="http://misev.anapa.ru/login" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame2.png"></img><div class="btnsText"><b>МИСЭВ</b><br>Электронное взаимодейсивие</div> </a>
+          <a href="https://gis.anapa.ru/anapa/anapa-main-menu" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame3.png"></img><div class="btnsText"><b>ГИС Анапа</b><br>Цифровой двойник города</div> </a> 
+          <a href="https://pmanapa.bitrix24.ru/stream/" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame4.png"></img><div class="btnsText"><b>Битрикс</b><br>Система управления проектами</div> </a>
+          <a href="https://mail.anapa.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame5.png"></img><div class="btnsText"><b>Почта</b><br>Почтовый клиент</div> </a>
+          <a href="https://www.anapa-official.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame6.png"></img><div class="btnsText"><b>Сайт мэрии</b><br>МО г-к Анапа</div> </a>
+          <a href="https://www.garant.ru/" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame7.png"></img><div class="btnsText"><b>Гарант</b><br>Информационно-правовой портал</div> </a>
+          <a href="/pb" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame8.png"></img><div class="btnsText" download="w3logo"><b>Справочник</b><br>Просто и удобно</div> </a> 
+		  <a href="https://gossluzhba.gov.ru/anticorruption/spravki_bk" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame10.png"></img><div class="btnsText"><b>Справки БК</b><br>Актуальный файл</div> </a>
+          <a href="document/A24.pdf" target="_blank" class="service"><img alt="icon"  class="icImg" src="img/Frame9.png"></img><div class="btnsText" download="w3logo"><b>Дни рождения</b><br></div> </a> 
        </div>
     </div>
  </div>
